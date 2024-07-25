@@ -1,3 +1,3 @@
 # Envelope Budget Manager
 
-This project provides APIs that can be used to manage personal budgets in the form of envelopes. To know more <a href="https://en.wikipedia.org/wiki/Envelope_system">click here</a>
+<a href="https://en.wikipedia.org/wiki/Envelope_system">Envelope budgeting</a> is a popular method to manage personal finances by creating labeled envelopes conatining cash for different purposes such as groceries, vacations, clothing etc. In a digital era, we no longer hold cash and carry out most of our transactions through digital channels. Therefore this classical budgeting method should also become digitalized, right?
