@@ -4,7 +4,9 @@
 
 ## Dependencies
 To run the project install the below dependencies
-`npm install typescript express @types/express`
+```sh
+npm install typescript express @types/express
+```
 
 ## Data Structures
 The data in this project is stored in objects called **Envelopes** which have the following properties:
@@ -24,4 +26,4 @@ This project contains API endpoints to manage envelopes, which are:
 4. `GET /envelope/detail/?envelope=` sends the detail of the specified envelope.
 5. `GET /envelope/trxhistory/?envelope=` sends the transaction history of the specified envelope.
 6. `PUT /envelope/spend/?envelope=` is the endpoint that records a spending from the specified envelope. The request body should resemble the `transaction` interface.
-7. `PUT /envelope/addbudget/?envelope` adds more budget to the specified envelope. The request body should resemble the `transaction` interface.
+7. `PUT /envelope/addbudget/?envelope=` adds more budget to the specified envelope. The request body should resemble the `transaction` interface.
